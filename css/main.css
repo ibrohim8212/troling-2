@@ -1,0 +1,51 @@
+.all{
+  width: 1511px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 682px;
+}
+
+.h2s{
+display: flex;
+justify-content: space-between;
+}
+
+.h2{
+  width: 45px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.h2-1{    width: 45px;
+  border: 1px solid black;
+  text-align: center;
+  transition: transform 0.1s ease;
+}
+
+.h2-1:hover{
+  border: 1px solid black;
+  width: 45px;
+  text-align: center;
+transform: translate(800px);
+transform: scaleX(100px);
+}
+
+.h2-1:active{
+  border: 1px solid black;
+  width: 45px;
+  text-align: center;
+transform: translate(800px);
+}
+
+.h1{
+  height: 631px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.href{
+  text-decoration: none;
+  color: black;
+}
